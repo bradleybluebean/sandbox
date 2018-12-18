@@ -8,3 +8,7 @@ You can land anything in here to test a zuul role, job, etc, without breaking st
 # markdown
 
 We use markdown.
+
+# slack
+
+And slack.
