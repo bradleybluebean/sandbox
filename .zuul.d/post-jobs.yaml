@@ -1,0 +1,22 @@
+- job:
+    name: sandbox-post
+    branches: .*
+    files:
+      - '^README.*$'
+    run: sandbox.yaml
+    post-run: post.yaml
+    secrets:
+      - slack
+    vars:
+      slack_notify_channels:
+        - '#zuul'
+    nodeset:
+      nodes:
+        - name: builder
+          label: ubuntu1804
+
+# This runs on the prod branch only to push the code to prod
+- job:
+    name: sandbox-post
+    branches: prod
+    run: sandbox-prod.yaml

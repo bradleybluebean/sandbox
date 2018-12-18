@@ -1,0 +1,14 @@
+- secret:
+    name: slack
+    data:
+      token: !encrypted/pkcs1-oaep
+        - ngZiPr7bPQTgPs9iao5uoRNaJyJdWVcqEIC3aKNUy3+xlzHquV/lcwumBXIEaoB5MegSH
+          1p3MVN0sD3soTOukwTPBzkfKzJjF0c69f9BiEoQjZ+g+zcHv2zOn67FN3fawOdh48MTJ6
+          W/d29anSTsOv+MphLr0AHC1WfJj1IEsodDKrOqvPxOtMQN999ruFHe+V1EyKxltHkvPXd
+          XHnTjYI69TxGttwGQDwRYiqzn6wQvKlJ5eO7+JoByuxHqC8kfFBInj0bwyzcEBmchEJYQ
+          cnyR5zpF4vtRSUZAVRpi+n22Tj4vTge9RLqdvpwn46l/fy+70ozAX+uYJeDENQ14oq+RQ
+          HHM7ERzZFoQh1sZD1qaHuW+3xfPFN7lDPIp4Le/Mty6TWhOTTlsxBZGkrcjx8dU/a9Z5B
+          0JvFeonkZQ6y++1YDvzQaQ+5uJm/Lfk5gxKt0UrSxcspm8mosJA/hxkbqVr1UufF/Ea1v
+          BY63QXloRRgGKkqySsVf7b8cJlNCRXgpKGr1oeTIRA/646rY1uRmJ+5hy9URaZDK/vmmv
+          nsSS+IICShOPztzWmi2Co1A5MlYyTQJFNKlQwpTpwIK9cDdMQbLvr3tZt+H9g8XYTIptl
+          Wk/EyD4KMQYbtOPzDF4PfLZXJY3lMsuHZVkSDzQvV35FWueYGDSKk8VKK4wR1A=

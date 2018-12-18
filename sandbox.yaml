@@ -1,0 +1,4 @@
+- name: Run normal things
+  hosts: builder
+  tasks:
+    - debug: var=zuul
