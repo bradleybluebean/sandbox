@@ -3,4 +3,4 @@
   roles:
     - role: slack-notify
       slack_notify_zuul_url: https://zuul.gdmny.co
-      slack_notify_token: "{{ sandbox_slack.token }}"
+      slack_notify_token: "{{ sandboxslack.token }}"

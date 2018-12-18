@@ -1,6 +1,6 @@
 
 - secret:
-    name: sandbox-slack
+    name: sandboxslack
     data:
       token: !encrypted/pkcs1-oaep
         - Vb3zA9qLb9UPGEVOjFt3v+ar6CEW2RwzyNTt4axFCSmr0Xz0++I1Dogh5wqvvtqLMrDWR
