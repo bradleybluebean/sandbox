@@ -1,0 +1,6 @@
+- name: Notify
+  hosts: builder
+  roles:
+    - role: slack-notify
+      slack_notify_zuul_url: https://zuul.gdmny.co
+      slack_notify_token: "{{ slack.token }}"
