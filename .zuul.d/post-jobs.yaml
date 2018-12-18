@@ -1,5 +1,6 @@
 - job:
     name: sandbox-post
+    parent: gm-base
     branches: .*
     files:
       - '^README.*$'
