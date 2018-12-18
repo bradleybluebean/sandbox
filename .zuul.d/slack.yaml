@@ -1,14 +1,15 @@
+
 - secret:
-    name: slack
+    name: sandbox-slack
     data:
       token: !encrypted/pkcs1-oaep
-        - ngZiPr7bPQTgPs9iao5uoRNaJyJdWVcqEIC3aKNUy3+xlzHquV/lcwumBXIEaoB5MegSH
-          1p3MVN0sD3soTOukwTPBzkfKzJjF0c69f9BiEoQjZ+g+zcHv2zOn67FN3fawOdh48MTJ6
-          W/d29anSTsOv+MphLr0AHC1WfJj1IEsodDKrOqvPxOtMQN999ruFHe+V1EyKxltHkvPXd
-          XHnTjYI69TxGttwGQDwRYiqzn6wQvKlJ5eO7+JoByuxHqC8kfFBInj0bwyzcEBmchEJYQ
-          cnyR5zpF4vtRSUZAVRpi+n22Tj4vTge9RLqdvpwn46l/fy+70ozAX+uYJeDENQ14oq+RQ
-          HHM7ERzZFoQh1sZD1qaHuW+3xfPFN7lDPIp4Le/Mty6TWhOTTlsxBZGkrcjx8dU/a9Z5B
-          0JvFeonkZQ6y++1YDvzQaQ+5uJm/Lfk5gxKt0UrSxcspm8mosJA/hxkbqVr1UufF/Ea1v
-          BY63QXloRRgGKkqySsVf7b8cJlNCRXgpKGr1oeTIRA/646rY1uRmJ+5hy9URaZDK/vmmv
-          nsSS+IICShOPztzWmi2Co1A5MlYyTQJFNKlQwpTpwIK9cDdMQbLvr3tZt+H9g8XYTIptl
-          Wk/EyD4KMQYbtOPzDF4PfLZXJY3lMsuHZVkSDzQvV35FWueYGDSKk8VKK4wR1A=
+        - Vb3zA9qLb9UPGEVOjFt3v+ar6CEW2RwzyNTt4axFCSmr0Xz0++I1Dogh5wqvvtqLMrDWR
+          8tUSSuM7kygs1BOas5+iVRp1ZayE5JMJwiZ3u7Cd8wEW2+IKYOdHRj156kqqEqBSWRxra
+          0k57qAof3wG3z5Kx4+adiNZET3hl1BURGjUXUlbzeWQhdzBRb7lTeBvczfXeoJon1mPJ2
+          eyMpjiWgY1BuowGtWFrDyUExJtIi3CUZbopYFMEHZR6nbhKv0oMIj/w3pralhQx8OQRZw
+          3Gjd1Ux+XOtItZCPDJ3NrYt8t67e650157LWxO7gVJ/FSS/r4jEjlocRUTeGtPbsVgfBM
+          LoIrOSq8aZ24unPnSeuFDFvroz7aXU6DjqAq3ORfV7c+427+hA8uYYyiUgJEszUOSvGw+
+          dDfkDBaFMhZQoc1OhwnkT2gcvq6XR2EP2t7Cz3fk/3zC9Gb6aK7h3Q5ZnbP3WrGSRVvhn
+          o6l7sr4V22JxRPFsXUYSQ6VPXyY3wk9ddWoZs18HnluUpzX+HhhWFjTodbvyrwE8HO6bp
+          TYFM6/20DqijbSIcxq6nWz4zi222R5pChiQK90nHDK7Ch4DPhrWgIlEUkQj6uayDjHxRI
+          b1ahp3XgeiXwagPByVNeMZwb0fNEi0b3R7cipiWefkaLedO80ceU/VQAFPW6qI=

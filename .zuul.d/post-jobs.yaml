@@ -6,7 +6,7 @@
     run: sandbox.yaml
     post-run: post.yaml
     secrets:
-      - slack
+      - sandbox-slack
     vars:
       slack_notify_channels:
         - '#zuul'
