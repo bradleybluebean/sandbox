@@ -2,6 +2,7 @@
     check:
       jobs:
         - noop
+        - sandbox-check
     gate:
       jobs:
         - noop
