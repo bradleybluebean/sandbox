@@ -1,4 +1,10 @@
 - name: Run normal things
-  hosts: builder
+  hosts: all
   tasks:
+    - command: cat test.ansi
+      args:
+        chdir: "{{ zuul.project.src_dir }}"
+    - pause:
+        seconds: "{{ item }}"
+      loop: "{{ range(1, 35)|list }}"
     - debug: var=zuul

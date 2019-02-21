@@ -1,0 +1,8 @@
+- job:
+    name: sandbox-check
+    parent: gm-base
+    run: sandbox.yaml
+    nodeset:
+      nodes:
+        - name: builder
+          label: ubuntu1804
