@@ -3,6 +3,8 @@
       jobs:
         - noop
         - matt-check
+        - sandbox-check
+        - tim-sandbox-test
     gate:
       jobs:
         - noop

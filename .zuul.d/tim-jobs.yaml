@@ -1,0 +1,8 @@
+- job:
+    name: tim-sandbox-test
+    parent: gm-base
+    run: tim-sandbox.yaml
+    nodeset:
+      nodes:
+        - name: builder
+          label: ubuntu1804
