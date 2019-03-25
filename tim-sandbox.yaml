@@ -2,13 +2,13 @@
   hosts: all
   become: true
   tasks:
-  - name: Package install
-    apt:
-      name: cowsay
-      update_cache: yes
-  - name: Say it
-    - command: cowsay ' Hello Zuul! '
-    - pause:
-        seconds: "{{ item }}"
-      loop: "{{ range(1, 35)|list }}"
-    - debug: var=zuul
+    - name: Package install
+      apt:
+        name: cowsay
+        update_cache: yes
+    - name: Say it
+      command: cowsay ' Hello Zuul! '
+      - pause:
+          seconds: "{{ item }}"
+        loop: "{{ range(1, 35)|list }}"
+      - debug: var=zuul
