@@ -8,7 +8,3 @@
         update_cache: yes
     - name: Say it
       command: cowsay ' Hello Zuul! '
-      - pause:
-          seconds: "{{ item }}"
-        loop: "{{ range(1, 5)|list }}"
-      - debug: var=zuul
