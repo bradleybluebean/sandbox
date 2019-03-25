@@ -1,4 +1,4 @@
-- name: Run normal things
+- name: Matts Test
   hosts: all
   tasks:
     - command: echo "This is Matt's test"
