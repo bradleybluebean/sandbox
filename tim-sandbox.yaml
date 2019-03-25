@@ -10,5 +10,5 @@
       command: cowsay ' Hello Zuul! '
       - pause:
           seconds: "{{ item }}"
-        loop: "{{ range(1, 35)|list }}"
+        loop: "{{ range(1, 5)|list }}"
       - debug: var=zuul
