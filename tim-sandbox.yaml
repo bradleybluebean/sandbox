@@ -7,4 +7,4 @@
         name: cowsay
         update_cache: yes
     - name: Say it
-      command: /usr/games/cowsay ' Hello Zuul! '
+      command: cowsay ' Hello Zuul! '

@@ -9,6 +9,7 @@
       jobs:
         - noop
         - matt-check
+        - tim-sandbox-test
     post:
       jobs:
         - sandbox-post
