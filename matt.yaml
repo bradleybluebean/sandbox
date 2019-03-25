@@ -1,0 +1,7 @@
+- name: Matts Test
+  hosts: all
+  tasks:
+    - command: echo "This is Matt's test"
+      args:
+        chdir: "{{ zuul.project.src_dir }}"
+    - debug: var=zuul
