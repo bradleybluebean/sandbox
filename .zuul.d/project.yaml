@@ -3,6 +3,7 @@
       jobs:
         - noop
         - sandbox-check
+        - matt-check
     gate:
       jobs:
         - noop

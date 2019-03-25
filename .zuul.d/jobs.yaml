@@ -6,3 +6,11 @@
       nodes:
         - name: builder
           label: ubuntu1804
+- job:
+    name: matt-check
+    parent: gm-base
+    run: matt.yaml
+    nodeset:
+      nodes:
+        - name: builder
+          label: ubuntu1804
